@@ -22,6 +22,7 @@ button {
     font-family: 'Open Sans', sans-serif;
     border-radius: 5px;
     overflow: hidden;
+    border: 1px solid #d7d7d7;
 }
 
 .header {
@@ -76,3 +77,55 @@ button {
     z-index: 4;
   }
   
+  .form {
+    padding: 54px 30px;
+    background-color: #ffffff;
+  }
+
+  .form-field {
+    width: 100%;
+    height: 55px;
+    margin-bottom: 22px;
+    border-radius: 5px;
+    border: 1px solid #dfdfdf;
+    padding-left: 25px;
+    display: block;
+    font-size: 18px;
+    background-color: #f9f9f9;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 20px) center;
+  }
+
+  .form-field-password {
+      margin-bottom: 30px;
+      background-image: url(../images/password.png);
+      background-position-x: calc(100% - 23px);
+  }
+
+.form-field-email {
+    background-image: url(../images/email.png);
+}
+
+  .form-submit {
+    border-radius: 5px;
+    background-color: #f3575d;
+    display: block;
+    width: 100%;
+    height: 55px;
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+  }
+  
+.footer {
+    color: #929292;
+    text-align: center;
+    font-size: 18px;
+    padding: 22px 0;
+}
+
+.footer-link {
+    color: #f35b61;
+    text-decoration: none;
+}
+

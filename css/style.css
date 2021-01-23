@@ -47,8 +47,12 @@ button {
     height: 58px;
     background-repeat: no-repeat;
     background-position: center;
-    border-left: 1px solid #3f5f95;
+    border-left: 1px solid #403f95;
 
+}
+
+.social-link:hover {
+    background-color: #577fc4;
 }
 
 .social-link-facebook {
@@ -61,6 +65,14 @@ button {
 
 .social-link-google {
     background-image: url(../images/google.png);
+}
+
+.social-link-google.active {
+    background-color: #f3575d;
+}
+
+.social-link-google.active:hover {
+    background-color: #f3575d;
 }
 
 .widget_bg {
@@ -116,6 +128,10 @@ button {
     font-size: 18px;
     border: none;
   }
+
+  .form-submit:hover {
+     background-color: #ca4348; 
+  }
   
 .footer {
     color: #929292;
@@ -127,5 +143,9 @@ button {
 .footer-link {
     color: #f35b61;
     text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
 }
 
